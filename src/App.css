@@ -34,7 +34,11 @@ a {
   padding-bottom: 20px;
 }
 
-
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 .banners {
   padding-top: 20px;
@@ -50,7 +54,7 @@ a {
 .footer-both {
     display: flex;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
 }
 
 .footer-title {
@@ -64,6 +68,8 @@ a {
 footer {
     background-color: black;
     /* padding: 60px; */
+    padding-bottom: 2rem;
     color: aliceblue;
-    height: 250px;
+    height: 20%;
+    width: 100%;
 }
