@@ -16,8 +16,10 @@ function App() {
       <header>
         <div className="logo">
           <img className="logo-img" alt="Logomarca do site" src={logo} />
-          <ul>
-            <a href="/" ><li>PÁGINA INICIAL</li></a>
+          <ul className="">
+            <a href="/">
+              <li>PÁGINA INICIAL</li>
+            </a>
             <li>CURSOS DISPONÍVEIS</li>
             <li>QUEM SOMOS NÓS</li>
             <li>CONTATO</li>
@@ -27,63 +29,73 @@ function App() {
 
       <main>
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner1} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner2} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner3} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner4} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner5} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner6} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
+          <a href="https://t.ly/bQBm" target="_blank"></a>
           <img className="banners-img" src={banner7} alt="Garanta sua vaga!" />
         </div>
 
         <div className="banners">
-          <img className="banners-img" src={banner8} alt="Garanta sua vaga!" />
+          <a href="https://t.ly/bQBm" target="_blank">
+            <img className="banners-img" src={banner8} alt="Garanta sua vaga!" />
+          </a>
         </div>
       </main>
 
       <footer>
-		<div className="footer-both" >
+        <div className="footer-both">
+          <div>
+            <text className="footer-title">QUEM SOMOS NÓS</text>
+            <span>
+              Somos um Colégio de ensino Técnico focado em preparar
+              profissionais para as exigências
+              <br /> do mercado de trabalho. Modelo de ensino: presencial.
+              <br></br>
+              Endereço:<br></br>
+              <a href="https://t.ly/UZPn">
+                R. Lagarto, 1021 - Centro, Aracaju - SE, 49010-390
+              </a>
+            </span>
+          </div>
 
-			<div>
-			<text className="footer-title">QUEM SOMOS NÓS</text>
-      <span>
-      Somos um Colégio de ensino Técnico focado em preparar profissionais para as exigências<br/> do mercado de trabalho. Modelo de ensino: presencial.
-      <br></br>
-      Endereço:<br></br>
-      <a href="https://t.ly/UZPn">
-        R. Lagarto, 1021 - Centro, Aracaju - SE, 49010-390
-        </a>
-      </span>
-			</div>
-
-			<div>
-			<text className="footer-title">FALE CONOSCO</text>
-			<span>
-				📞 (79) 3222-9567<br/>
-				📲 (79) 98868-4517 / 98851-2153
-			</span>
-			</div>
-
-		</div>
-		</footer>
+          <div>
+            <text className="footer-title">FALE CONOSCO</text>
+            <span>
+              📞 (79) 3222-9567
+              <br />
+              📲 (79) 98868-4517 / 98851-2153
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
