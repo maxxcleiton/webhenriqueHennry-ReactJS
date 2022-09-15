@@ -1,0 +1,48 @@
+header {
+  background-color: whitesmoke;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+.banners {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.banners-img {
+  width: 600px;
+}
+
+.footer-both {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+footer {
+    background-color: black;
+    /* padding: 60px; */
+    color: aliceblue;
+    height: 250px;
+}
