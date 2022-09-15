@@ -15,6 +15,27 @@ header {
     width: 200px;
 }
 
+.ul-menu {
+  list-style: none;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+#quemSomosNos#contato {
+  padding-bottom: 20px;
+}
+
+#contato {
+  padding-bottom: 20px;
+}
+
+
+
 .banners {
   padding-top: 20px;
   padding-bottom: 20px;
