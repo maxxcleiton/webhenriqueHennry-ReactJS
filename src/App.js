@@ -1,4 +1,4 @@
-import logo from "./images/logomarca.png";
+import logo from "./images/logos/hennry/logomarca.png";
 import banner1 from "./images/venhahenrry/hennry1.jpeg";
 import banner2 from "./images/venhahenrry/hennry2.jpeg";
 import banner3 from "./images/venhahenrry/hennry3.jpeg";
@@ -15,7 +15,9 @@ function App() {
     <div className="">
       <header>
         <div className="logo">
+          <a href="https://www.instagram.com/henrique_hennry/"  target="_blank" rel="noreferrer">
           <img className="logo-img" alt="Logomarca do site" src={logo} />
+          </a>
           <ul className="ul-menu">
             <a href="/">
               <li>PÁGINA INICIAL</li>

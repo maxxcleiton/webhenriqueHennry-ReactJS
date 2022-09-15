@@ -17,7 +17,13 @@ header {
 
 .ul-menu {
   list-style: none;
-  font-weight: 600;
+}
+
+li {
+  font-weight: 700;
+  font-size: medium;
+  padding: 1px;
+
 }
 
 a {
@@ -41,8 +47,8 @@ main {
 }
 
 .banners {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   display: flex;
   justify-content: center;
 }
