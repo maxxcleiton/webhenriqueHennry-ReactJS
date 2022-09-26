@@ -1,0 +1,50 @@
+footer {
+    background-color: black;
+    /* padding: 60px; */
+    padding-bottom: 3rem;
+    color: white;
+    /* color: aliceblue; */
+    height: 20%;
+    width: 100%;
+
+}
+
+.footer-both {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.quem-somos-nos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;    
+  /* display: flex; */
+    min-width: 80%;
+    /* max-width: 81%; */
+}
+
+#quem-somos-nos-text {
+    margin-bottom: 50px;
+}
+
+.quem-somos-nos-img {
+    padding-top: 20px;
+}
+
+/* .quem-somos-nos-img {
+ justify-content: center;   
+} */
+
+.footer-title {
+    margin-top: 50px;
+}
+
+#quemSomosNos {
+    padding-bottom: 20px;
+  }
+  
+#contato {
+    padding-bottom: 20px;
+  }

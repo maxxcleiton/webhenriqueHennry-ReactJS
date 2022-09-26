@@ -32,14 +32,6 @@ a {
 
 }
 
-#quemSomosNos#contato {
-  padding-bottom: 20px;
-}
-
-#contato {
-  padding-bottom: 20px;
-}
-
 main {
   display: flex;
   flex-wrap: wrap;
@@ -57,25 +49,3 @@ main {
   width: 600px;
 }
 
-.footer-both {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.footer-title {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: x-large;
-}
-
-footer {
-    background-color: black;
-    /* padding: 60px; */
-    padding-bottom: 2rem;
-    color: aliceblue;
-    height: 20%;
-    width: 100%;
-}
